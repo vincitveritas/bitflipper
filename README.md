@@ -1,2 +1,2 @@
 # bitflipper
-My very own attempt at building a programming language that does computer justice and is a true bitflipper
+The bitflipping programming langauge. Because at the end of the day, computers are just bit flippers.
