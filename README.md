@@ -20,5 +20,5 @@ The bitflipping programming langauge. Because at the end of the day, computers a
 
 Start the project!
 - make the rough spec
-- build a bitflipper -> C translator
+- build a bitflipper -> C translator (if lazy), hopefully building this language from assembly
 - test out
