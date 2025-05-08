@@ -14,6 +14,10 @@ The bitflipping programming langauge. Because at the end of the day, computers a
 
 ## Thoughts and stuff
 
+- code is probably written in UTF8 -> symbols can be manually or automatically converted into meaning
+
+## todo
+
 Start the project!
 - make the rough spec
 - build a bitflipper -> C translator
