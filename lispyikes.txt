@@ -1,0 +1,19 @@
+(defun small-prime-number-p
+	(n
+	) 				//"Return T if N, an integer, is a prime number. Otherwise, return NIL."//
+		(cond
+			((or (< n 2) ) nil)
+        			((= n 2) t)
+			((divisorp 2 n) nil)
+        			(t 	(loop for i from 3 upto (sqrt n) by 2 never (divisorp i n))
+		)
+	)
+)
+
+
+
+
+
+lisp
+
+()function()

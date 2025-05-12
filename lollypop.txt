@@ -1,0 +1,28 @@
+00:00 11/05/2025
+THE BIT-FLIPPER LANGUAGE
+-------------------------------------------------------------
+
+you need three types of actions for computing:
+- load/store	load/store is a single action
+- data manipulation	only this can be functional
+- compare/branch	compare/brach is just deciding what to do next
+
+#	labels/pipes or what ever
+
+sqrt(
+	( ( #input ) bitsize ) malloc #tmp;
+
+	((( #input ; 0) > ; ( #input ; 1 ) < ) and ) if (
+		#input#tmp
+	);
+	((( #input ; 0) > ; ( #input ; 1 ) < ) notAnd ) if (
+		( #input ; 2 ) / #tmp
+	);
+	
+
+	( #input ; 2 ) divide #tmp;
+)
+
+hypothenus
+
+(print "hello world") +

@@ -1,0 +1,55 @@
+
+
+
+* label		they label stuff "once", meaning if the label is in use, you can't write something to it
+# fence		they separate the blocks / tasks:   # tiger lama horse # <- one block between the fences, like ISO C ;
+## function
+functionname	if something doesnt have * or # around it, it's a function call (you can only have one function inside a fenced block)
+() comments	(this is a commend)
+something**	is the function input label
+**something	is the function output label
+
+!!! obvisouly you don't need the beginning #-fence, because it's fenced in the line above, but for showcasing it's included in the front !!!
+
+for example:
+	declaring a function:	
+		# nameoffunction ## x+y -> z #
+	writing to a "variable":
+		# 2*x #			// the 2 gets labeled x
+	using a function:
+		# "Lorem ipsum"*input** "r"*separator** ()split() *output # 	( *input label is useful if you have multiple inputs/outputs)
+		# "Lorem ipsum"*input* "r"*separator split *output # 		(without commend for making the function obvious)
+		# "Lorem ipsum* split *x #				(you can do this aswell if you only have one input
+								 output)
+		#split "Lorem ipsum"* *x#	(same as above)
+		# split *x "Lorem ipsum"* #
+		# (inputs:) "Lorem ipsum"* (function:) split (outputs:) *x #	with marking
+
+		stdin *x #
+		x* checkifnumber *z #
+		z* if *TRUE*tiger_cage *FALSE*waterbottle
+
+		"Hello world"* print #
+		"Hello world"* print
+
+in(x*base y*exponent) power out(x) #
+in(x) print #
+
+in*x*base in*y*exponent power out*x #
+in*x print #
+
+# base exponent #power [1]*x [2]*y;
+
+next attempt:
+
+input # function * label;
+
+
+
+
+"Lorem ipsum" * input;
+input # split * x;
+x # [1] * y;
+x # [2] * z;
+y # print;		//prints: Lorem
+z # print;		//prints: ipsum

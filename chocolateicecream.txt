@@ -1,0 +1,42 @@
+
+input first, function second, parser reads backwards first
+always removes white space after "#" & "*" and before "#" & "*"
+
+#		(marks function blocks)
+()		(comments)
+*		(marks data block)
+
+data blocks are always fused into following function block (input -> function)
+
+that's all you need, hopefully
+and everything is code unless datafied
+---------------------------------------------------------------------------------
+()
+* hello world # print		(everything after * is data, everything after # is function)
+()
+* 2 # int8 # x		(2 is data, casts as int, puts it into x
+			(not declared "code" are variables)
+()
+* condition 
+	* Truth # print 	
+	* not Truth # print
+#if			(previous 1 block is "else", previous 2 is "true")
+()
+(if just one condition, aka if only one function block before the data block)
+* condition
+	* Happy printing # print
+#if
+()
+* 132 * x # decVar		(set x to 123)
+()
+
+(reads switch block first, then goes looking through previous blocks until "alone" data block)
+
+* DataToSwitchOn
+	* House # do this if data is house
+	* Tiger # do this if data is Tiger
+# switch
+()
+
+*x
+	*#

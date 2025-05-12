@@ -1,0 +1,18 @@
+- you just have function blocks marked in with # and comments inside ()
+- always removes whitespace after # and before #
+- functions / variables are single write, then read only unless resetted 
+- file always ends with invisible #
+- *something* locks something to read only in this file
+- shipped with functions are always locked unless " # unlockdefaults # " is present
+
+# stdin # x			(stdin reads terminal input and writes it into the next block)
+# + # 2 # x		(+ adds followed block into 2nd followed block)
+
+# set # int # 2 # y		(sets following block into 2nd following block, when read, fuses int and 2 as casted int so set # 2 # y)
+
+# if # condition # execute this when true
+# elif # condition # execute if true # execute if not
+
+# elif # condition
+	(true)	# execute if true		
+	(false)	# execute if not true

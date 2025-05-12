@@ -1,0 +1,6 @@
+HOS language
+
+functions + constants only
+
+p_functionname()		(default)	parallel / priority evaluation
+l_functionname()			lazy evaluation

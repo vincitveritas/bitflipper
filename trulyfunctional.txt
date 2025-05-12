@@ -1,0 +1,47 @@
+f		// everything is a function f(x)			!!! input first !!!
+()f		// () is the input
+*		// is a label, to label inputs and outputs
+add2		// functions without a label taken from this file only
+add2#library123	// is a function from a different library/file
+
+("Lorem ipsum")x	// simplified variable declaration			!!! input first !!!
+(x)print		// printing
+
+tiger()		//function declaration
+tiger(
+	(in*caged) true (
+		("Tiger is trapped in cage")print
+		(in*caged)x
+	)
+	(in*caged) false (
+		("Tiger is freeroaming")print
+		(in*caged)x
+	)
+
+)
+(stdin*caged)tiger
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+next try:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#				(are fences to seperate blocks for example: # print # (fenced in block))
+*				(are labels)
+()				(comment "(") opens the comment ")" closes the comment)
+everything is code unless datafied
+=====================================
+x*base y*exponent power z*result #	(you put the eveything into a block, the first thing that's not labeled is the function)
+power x*base y*exponent z*result #	(same thing as above)
+
+(function) power			
+	(input) x*base y*exponent
+	(output) z*result		(same as above, because () are just comments)
+#				
+
+print "hello world"*arg #		(as below)		("*arg" will probably not be needed in the future for single input only)
+"hello world"*arg print #		(as above)
+
+if caged?*input
+	#*true print "Tiger is caged"
+	#*false print "Tiger is in the wilderness"#
