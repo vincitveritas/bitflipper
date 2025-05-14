@@ -1,0 +1,6 @@
+- File contains Comma separated Values/Blocks (CSV)
+- Value beginning with (functionName) does stuff to the value inside the value block
+,
+(print) hello world,
+(add) 3 2, <- this Block is 5,
+(new) x y z,
