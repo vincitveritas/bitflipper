@@ -1,0 +1,26 @@
+- LISP without ()
+- Hashes "#" separate/fence-in blocks
+if block contains keyword, do that, otherwise its data
+
+print # hello world #               print outputs the next block
+add # 2 # 3 #                       add adds the next two blocks together and writes it
+                                    into the add block
+loop # tasks #
+loop3 # 1 # 10 # print # hello world #
+new # x # sint # 0 #                new labels new memmory address x oth type signed int with value of 0
+
+
+(main.body)
+(main.
+        (print.hello))
+
+(2.(3.4))
+(print.
+        (left.
+                (right.
+                        (2.
+                                (3.4)
+                        )
+                )
+        )
+)
