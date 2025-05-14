@@ -1,0 +1,31 @@
+- if a block starts with "(" its a value
+
+default(32)
+default(s32)
+default(f32)
+
+new(x, y, z)
+set(x, 4)
+set(y, 2)
+set(z, add(x, y))
+loop(4, 
+        print(hello world /n)
+)
+getMemmoryAddress(x)
+gma(x)
+
+newf(add4,
+        output(
+                add(
+                        input(1),
+                        4
+                )
+        )
+)
+set(
+        new(x),
+        2
+)
+print(add4(x)) <- 6
+
+x(add(4)) <- 10
