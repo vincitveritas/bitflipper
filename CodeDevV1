@@ -1,0 +1,8 @@
+- meanings: without parenthesis, separated by Comma (CSV)
+- values: inside larenthesis
+print(meaning)
+new(meaning)
+new(meaning, meaning)
+add(value, value)
+newf(
+        meaning,
