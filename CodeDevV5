@@ -1,0 +1,13 @@
+(c, Lisp but with additional useless commas /, this language is Comma separated Values (CSV) completely/, 
+and everything is viewed as code, except it has a * symbol before the opening parentesis)
+
+
+(print, hello world)
+print(hello world)
+
+(newvar, x, 32)
+newvar(x, 32)
+
+(set, x, (lookfornumber, (getstdinput)))
+set(x, lookfornumber(getstdinput))
+
